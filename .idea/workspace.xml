@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d0acb61-616a-4338-90a1-08f0c2e1e926" name="Changes" comment="add hw3">
+    <list default="true" id="9d0acb61-616a-4338-90a1-08f0c2e1e926" name="Changes" comment="add advanced AI hw3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Homeworks/lesson3/hw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homeworks/lesson3/hw.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +82,28 @@
       <option name="project" value="LOCAL" />
       <updated>1668000350698</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add advanced AI hw3">
+      <created>1668000372572</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668000372573</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add advanced AI hw3">
+      <created>1668002082444</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668002082445</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add advanced AI hw3">
+      <created>1668002151077</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668002151077</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,7 +121,8 @@
     <MESSAGE value="second hw done" />
     <MESSAGE value="add descriptions hw 2" />
     <MESSAGE value="add hw3" />
-    <option name="LAST_COMMIT_MESSAGE" value="add hw3" />
+    <MESSAGE value="add advanced AI hw3" />
+    <option name="LAST_COMMIT_MESSAGE" value="add advanced AI hw3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -42,7 +42,7 @@ public class hw {
         int x;
         int y;
         do {
-            System.out.println("Choose x & y");
+            System.out.println("Choose x & y:");
             x = scanner.nextInt() - 1;
             y = scanner.nextInt() - 1;
         } while (!checkturn(y, x));
@@ -146,11 +146,9 @@ public class hw {
             x = 2 * player_turnsx[player_count] - player_turnsx[player_count -1];
             y = (y > 0) ? y : 0 - y;
             x = (x > 0) ? x : 0 - x;
-            System.out.println(y + " " + x);
             if (!checkturn(y,x)) {
                 y = (player_turnsy[player_count] + player_turnsy[player_count - 1]) / 2;
                 x = (player_turnsx[player_count] + player_turnsx[player_count - 1]) / 2;
-                System.out.println(y + " " + x);
                 if (!checkturn(y,x)) {
                     do {
                         y = random.nextInt(SIZE_Y);
@@ -185,6 +183,7 @@ public class hw {
                 System.out.println("DRAW");
                 break;
             }
+            System.out.println("AI turn:");
             advancedAIturn();
             printfield(SIZE_Y, SIZE_X);
             if (checkwin(AI_DOT)) {
