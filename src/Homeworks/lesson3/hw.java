@@ -6,9 +6,9 @@ import java.util.Scanner;
 
 public class hw {
 
-    static final int SIZE_X = 5;
-    static final int SIZE_Y = 5;
-    static final int WIN_COND = 4;
+    static final int SIZE_X = 3;
+    static final int SIZE_Y = 3;
+    static final int WIN_COND = 3;
     static int player_count = 0;
     static int[] player_turnsy = new int[SIZE_Y * SIZE_Y / 2];
     static int[] player_turnsx = new int[SIZE_X * SIZE_X / 2];
@@ -144,11 +144,21 @@ public class hw {
         if (player_count >= 1) {
             y = 2 * player_turnsy[player_count] - player_turnsy[player_count -1];
             x = 2 * player_turnsx[player_count] - player_turnsx[player_count -1];
+            y = (y > 0) ? y : 0 - y;
+            x = (x > 0) ? x : 0 - x;
+            System.out.println(y + " " + x);
             if (!checkturn(y,x)) {
-                do {
-                    y = random.nextInt(SIZE_Y);
-                    x = random.nextInt(SIZE_X);
-                } while (!checkturn(y,x));
+                y = (player_turnsy[player_count] + player_turnsy[player_count - 1]) / 2;
+                x = (player_turnsx[player_count] + player_turnsx[player_count - 1]) / 2;
+                System.out.println(y + " " + x);
+                y = (y > 0) ? y : 0 - y;
+                x = (x > 0) ? x : 0 - x;
+                if (!checkturn(y,x)) {
+                    do {
+                        y = random.nextInt(SIZE_Y);
+                        x = random.nextInt(SIZE_X);
+                    } while (!checkturn(y, x));
+                }
             }
         } else {
             do {
@@ -180,9 +190,11 @@ public class hw {
             advancedAIturn();
             printfield(SIZE_Y, SIZE_X);
             if (checkwin(AI_DOT)) {
+                System.out.println("You loose");
                 break;
             }
             if (!checkspace()) {
+                System.out.println("DRAW");
                 break;
             }
             player_count++;
