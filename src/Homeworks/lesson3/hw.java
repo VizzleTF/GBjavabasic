@@ -9,7 +9,9 @@ public class hw {
     static final int SIZE_X = 5;
     static final int SIZE_Y = 5;
     static final int WIN_COND = 4;
-
+    static int player_count = 0;
+    static int[] player_turnsy = new int[SIZE_Y * SIZE_Y / 2];
+    static int[] player_turnsx = new int[SIZE_X * SIZE_X / 2];
     static final char PLAYER_DOT = 'X';
     static final char AI_DOT = 'O';
     static final char EMPTY_DOT = ' ';
@@ -44,6 +46,8 @@ public class hw {
             x = scanner.nextInt() - 1;
             y = scanner.nextInt() - 1;
         } while (!checkturn(y, x));
+        player_turnsy[player_count] = y;
+        player_turnsx[player_count] = x;
         doturn(y, x, PLAYER_DOT);
     }
 
@@ -134,6 +138,26 @@ public class hw {
         }
         return false;
     }
+    private static void advancedAIturn() {
+        int x;
+        int y;
+        if (player_count >= 1) {
+            y = 2 * player_turnsy[player_count] - player_turnsy[player_count -1];
+            x = 2 * player_turnsx[player_count] - player_turnsx[player_count -1];
+            if (!checkturn(y,x)) {
+                do {
+                    y = random.nextInt(SIZE_Y);
+                    x = random.nextInt(SIZE_X);
+                } while (!checkturn(y,x));
+            }
+        } else {
+            do {
+                y = random.nextInt(SIZE_Y);
+                x = random.nextInt(SIZE_X);
+            } while (!checkturn(y,x));
+        }
+        doturn(y, x, AI_DOT);
+    }
 
 
 
@@ -153,7 +177,7 @@ public class hw {
                 System.out.println("DRAW");
                 break;
             }
-            aiturn();
+            advancedAIturn();
             printfield(SIZE_Y, SIZE_X);
             if (checkwin(AI_DOT)) {
                 break;
@@ -161,6 +185,7 @@ public class hw {
             if (!checkspace()) {
                 break;
             }
+            player_count++;
         }
     }
 }
