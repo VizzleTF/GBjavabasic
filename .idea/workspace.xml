@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d0acb61-616a-4338-90a1-08f0c2e1e926" name="Changes" comment="second hw done">
-      <change beforePath="$PROJECT_DIR$/src/Homeworks/lesson2/hw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homeworks/lesson2/hw.java" afterDir="false" />
+    <list default="true" id="9d0acb61-616a-4338-90a1-08f0c2e1e926" name="Changes" comment="add descriptions hw 2">
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/lesson3/hw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +61,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667989722793</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add descriptions hw 2">
+      <created>1667990155391</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667990155391</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -76,7 +84,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="second hw done" />
-    <option name="LAST_COMMIT_MESSAGE" value="second hw done" />
+    <MESSAGE value="add descriptions hw 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="add descriptions hw 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
