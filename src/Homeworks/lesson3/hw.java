@@ -151,8 +151,6 @@ public class hw {
                 y = (player_turnsy[player_count] + player_turnsy[player_count - 1]) / 2;
                 x = (player_turnsx[player_count] + player_turnsx[player_count - 1]) / 2;
                 System.out.println(y + " " + x);
-                y = (y > 0) ? y : 0 - y;
-                x = (x > 0) ? x : 0 - x;
                 if (!checkturn(y,x)) {
                     do {
                         y = random.nextInt(SIZE_Y);
