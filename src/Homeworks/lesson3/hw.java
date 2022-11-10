@@ -6,9 +6,9 @@ import java.util.Scanner;
 
 public class hw {
 
-    static final int SIZE_X = 3;
-    static final int SIZE_Y = 3;
-    static final int WIN_COND = 3;
+    static final int SIZE_X = 6;
+    static final int SIZE_Y = 6;
+    static final int WIN_COND = 4;
     static int player_count = 0;
     static int[] player_turnsy = new int[SIZE_Y * SIZE_Y / 2];
     static int[] player_turnsx = new int[SIZE_X * SIZE_X / 2];
@@ -73,58 +73,107 @@ public class hw {
         for(int i = 0; i < SIZE_Y; i++) {
             int count = 0;
             for (int j = 0; j < SIZE_X; j++) {
-                if(field[i][j] == dot)
+                if(field[i][j] == dot) {
                     count++;
+                    if (count >= WIN_COND) return true;
+                } else {
+                    count = 0;
+                }
             }
-            if (count >= WIN_COND) return true;
+
         }
         for(int i = 0; i < SIZE_X; i++) {
             int count = 0;
             for (int j = 0; j < SIZE_Y; j++) {
-                if(field[j][i] == dot)
+                if(field[j][i] == dot){
                     count++;
+                    if (count >= WIN_COND) return true;
+                } else {
+                    count = 0;
+                }
             }
-            if (count >= WIN_COND) return true;
         }
         for(int i = 0; i < SIZE_Y; i++) {
             int count = 0;
             for (int j = 0; j < SIZE_X; j++) {
                 if(j+i < SIZE_X) {
-                    if (field[j][j + i] == dot)
+                    if (field[j][j + i] == dot){
                         count++;
+                        if (count >= WIN_COND) return true;
+                    } else {
+                        count = 0;
+                    }
                 }
             }
-            if (count >= WIN_COND) return true;
         }
         for(int i = 0; i < SIZE_Y; i++) {
             int count = 0;
             for (int j = 0; j < SIZE_X; j++) {
                 if(j-i >= 0) {
-                    if (field[j][j - i] == dot)
+                    if (field[j][j - i] == dot){
                         count++;
+                        if (count >= WIN_COND) return true;
+                    } else {
+                        count = 0;
+                    }
                 }
             }
-            if (count >= WIN_COND) return true;
         }
         for(int i = 0; i < SIZE_Y; i++) {
             int count = 0;
             for (int j = 0; j < SIZE_X; j++) {
                 if(j+i < SIZE_X) {
-                    if (field[SIZE_X -1 - j][j + i] == dot)
+                    if (field[SIZE_X -1 - j][j + i] == dot){
                         count++;
+                        if (count >= WIN_COND) return true;
+                    } else {
+                        count = 0;
+                    }
                 }
             }
-            if (count >= WIN_COND) return true;
         }
         for(int i = 0; i < SIZE_Y; i++) {
             int count = 0;
             for (int j = 0; j < SIZE_X; j++) {
                 if(j-i >= 0) {
-                    if (field[SIZE_X - 1 - j][j - i] == dot)
+                    if (field[SIZE_X - 1 - j][j - i] == dot){
                         count++;
+                        if (count >= WIN_COND) return true;
+                    } else {
+                        count = 0;
+                    }
                 }
             }
-            if (count >= WIN_COND) return true;
+        }
+        return false;
+    }
+
+    private static boolean winstrat() {
+        for(int i = 0; i < SIZE_Y; i++) {
+            for (int j = 0; j < SIZE_X; j++) {
+                if (checkturn(i,j) == true) {
+                    field[i][j] = AI_DOT;
+                    if (checkwin(AI_DOT) == true)
+                        return true;
+                    field[i][j] = EMPTY_DOT;
+                }
+            }
+        }
+        return false;
+    }
+
+    private static boolean defstrat() {
+        for(int i = 0; i < SIZE_Y; i++) {
+            for (int j = 0; j < SIZE_X; j++) {
+                if (checkturn(i,j) == true) {
+                    field[i][j] = PLAYER_DOT;
+                    if (checkwin(PLAYER_DOT) == true) {
+                        field[i][j] = AI_DOT;
+                        return true;
+                    }
+                    field[i][j] = EMPTY_DOT;
+                }
+            }
         }
         return false;
     }
@@ -139,30 +188,34 @@ public class hw {
         return false;
     }
     private static void advancedAIturn() {
-        int x;
-        int y;
-        if (player_count >= 1) {
-            y = 2 * player_turnsy[player_count] - player_turnsy[player_count -1];
-            x = 2 * player_turnsx[player_count] - player_turnsx[player_count -1];
-            y = (y > 0) ? y : 0 - y;
-            x = (x > 0) ? x : 0 - x;
-            if (!checkturn(y,x)) {
-                y = (player_turnsy[player_count] + player_turnsy[player_count - 1]) / 2;
-                x = (player_turnsx[player_count] + player_turnsx[player_count - 1]) / 2;
-                if (!checkturn(y,x)) {
+        if (winstrat() == false) {
+            if (defstrat() == false) {
+                int x;
+                int y;
+                if (player_count >= 1) {
+                    y = 2 * player_turnsy[player_count] - player_turnsy[player_count - 1];
+                    x = 2 * player_turnsx[player_count] - player_turnsx[player_count - 1];
+                    y = (y > 0) ? y : 0 - y;
+                    x = (x > 0) ? x : 0 - x;
+                    if (!checkturn(y, x)) {
+                        y = (player_turnsy[player_count] + player_turnsy[player_count - 1]) / 2;
+                        x = (player_turnsx[player_count] + player_turnsx[player_count - 1]) / 2;
+                        if (!checkturn(y, x)) {
+                            do {
+                                y = random.nextInt(SIZE_Y);
+                                x = random.nextInt(SIZE_X);
+                            } while (!checkturn(y, x));
+                        }
+                    }
+                } else {
                     do {
                         y = random.nextInt(SIZE_Y);
                         x = random.nextInt(SIZE_X);
                     } while (!checkturn(y, x));
                 }
+                doturn(y, x, AI_DOT);
             }
-        } else {
-            do {
-                y = random.nextInt(SIZE_Y);
-                x = random.nextInt(SIZE_X);
-            } while (!checkturn(y,x));
         }
-        doturn(y, x, AI_DOT);
     }
 
 
