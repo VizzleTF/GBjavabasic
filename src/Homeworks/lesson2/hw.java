@@ -19,17 +19,13 @@ public class hw {
     private static int[] hw1reverse(int[] a) {
         int[] reverse = new int[a.length];
         for (int i = 0; i < reverse.length; i++) {
-            if (a[i] == 1) {
-                reverse[i] = 0;
-            } else {
-                reverse[i] = 1;
-            }
+            reverse[i] = 1- a[i];
         }
         return reverse;
     }
 
     /*
-    Задать пустой целочисленный массив размером8. Циклом заполнить его 0 3 6 9 12 15 18 21
+    Задать пустой целочисленный массив размером 8. Циклом заполнить его 0 3 6 9 12 15 18 21
      */
 
     private static int[] hw2(int length) {
@@ -94,8 +90,7 @@ public class hw {
                 maxi = i;
             }
         }
-        int[] result = {maxi, mini, max, min};
-        return result;
+        return new int[]{maxi, mini, max, min};
     }
     /*
     6. ** Написать метод, в который передается не пустой одномерный целочисленный массив,
@@ -132,8 +127,7 @@ public class hw {
                 truth = 1;
             }
         }
-        int[] check = {l, truth};
-        return check;
+        return new int[]{l, truth};
     }
     /*
     7. *** Написать метод, которому на вход подается одномерный массив и число n
