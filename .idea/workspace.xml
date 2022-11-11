@@ -1,233 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d0acb61-616a-4338-90a1-08f0c2e1e926" name="Changes" comment="some changes">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homeworks/lesson5/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homeworks/lesson5/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homeworks/lesson5/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homeworks/lesson5/Dog.java" afterDir="false" />
+    <list default="true" id="e9ede44f-fd9b-4a2b-b491-2d96b7fbe807" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeekBrains.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="PREVIOUS_COMMIT_AUTHORS">
-      <list>
-        <option value="ivan &lt;vizzlef@gmail.com&gt;" />
-      </list>
-    </option>
-    <option name="PUSH_AUTO_UPDATE" value="true" />
-    <option name="PUSH_TAGS">
-      <GitPushTagMode>
-        <option name="argument" value="--tags" />
-        <option name="title" value="All" />
-      </GitPushTagMode>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectId" id="2HGctHTqQno7zZs5r94aYlQ34Y9" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2HP1VrNYynS0nCeqtZuHAht6jZK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="Homeworks.lesson1" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.Homeworks.lesson5.Main">
-    <configuration name="Homeworks.lesson3.hw" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homeworks.lesson3.hw" />
-      <module name="GeekBrains" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Homeworks.lesson3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Homeworks.lesson5.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homeworks.lesson5.Main" />
-      <module name="GeekBrains" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Homeworks.lesson5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homeworks.lesson4.Main" />
-      <module name="GeekBrains" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Homeworks.lesson4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="hw" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homeworks.lesson2.hw" />
-      <module name="GeekBrains" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Homeworks.lesson2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Homeworks.lesson5.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Homeworks.lesson3.hw" />
-        <item itemvalue="Application.hw" />
-      </list>
-    </recent_temporary>
-  </component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9d0acb61-616a-4338-90a1-08f0c2e1e926" name="Changes" comment="" />
-      <created>1667915078868</created>
+      <changelist id="e9ede44f-fd9b-4a2b-b491-2d96b7fbe807" name="Changes" comment="" />
+      <created>1668171935287</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1667915078868</updated>
+      <updated>1668171935287</updated>
     </task>
-    <task id="LOCAL-00001" summary="second hw done">
-      <created>1667989722793</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1667989722793</updated>
-    </task>
-    <task id="LOCAL-00002" summary="add descriptions hw 2">
-      <created>1667990155391</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1667990155391</updated>
-    </task>
-    <task id="LOCAL-00003" summary="add hw3">
-      <created>1667998581285</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1667998581285</updated>
-    </task>
-    <task id="LOCAL-00004" summary="add hw3">
-      <created>1668000350697</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1668000350698</updated>
-    </task>
-    <task id="LOCAL-00005" summary="add advanced AI hw3">
-      <created>1668000372572</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1668000372573</updated>
-    </task>
-    <task id="LOCAL-00006" summary="add advanced AI hw3">
-      <created>1668002082444</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1668002082445</updated>
-    </task>
-    <task id="LOCAL-00007" summary="add advanced AI hw3">
-      <created>1668002151077</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1668002151077</updated>
-    </task>
-    <task id="LOCAL-00008" summary="add advanced AI hw3">
-      <created>1668002311732</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1668002311732</updated>
-    </task>
-    <task id="LOCAL-00009" summary="add win and def strategy to AI hw3">
-      <created>1668066054356</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1668066054356</updated>
-    </task>
-    <task id="LOCAL-00010" summary="add hw4">
-      <created>1668085894575</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1668085894575</updated>
-    </task>
-    <task id="LOCAL-00011" summary="little changes">
-      <created>1668087071184</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1668087071184</updated>
-    </task>
-    <task id="LOCAL-00012" summary="added private to salary + getter/setter">
-      <created>1668154901734</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1668154901734</updated>
-    </task>
-    <task id="LOCAL-00013" summary="add hw5">
-      <created>1668170020397</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1668170020397</updated>
-    </task>
-    <task id="LOCAL-00014" summary="add hw5">
-      <created>1668170517504</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1668170517504</updated>
-    </task>
-    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,18 +46,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="second hw done" />
-    <MESSAGE value="add descriptions hw 2" />
-    <MESSAGE value="add hw3" />
-    <MESSAGE value="add advanced AI hw3" />
-    <MESSAGE value="add win and def strategy to AI hw3" />
-    <MESSAGE value="add hw4" />
-    <MESSAGE value="little changes" />
-    <MESSAGE value="added private to salary + getter/setter" />
-    <MESSAGE value="add hw5" />
-    <MESSAGE value="some changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="some changes" />
   </component>
 </project>
