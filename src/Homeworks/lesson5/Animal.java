@@ -1,9 +1,9 @@
 package Homeworks.lesson5;
 
 public class Animal {
-    protected String name;
-    protected int run;
-    protected float jump;
+    private String name;
+    private int run;
+    private float jump;
 
     Animal(String name, int run, float jump) {
         this.name = name;

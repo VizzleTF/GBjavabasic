@@ -14,7 +14,7 @@ public class Dog extends Animal{
     }
 
     @Override
-    void showInfo(){ System.out.println(name + " can run " + run + "m, jump " + jump + "m and swim " + swim +"m"); }
+    void showInfo(){ System.out.println(getName() + " can run " + getRun() + "m, jump " + getJump() + "m and swim " + swim +"m"); }
 
     float getSwim(){ return this.swim; }
 }
