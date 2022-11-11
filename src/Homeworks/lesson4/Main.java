@@ -44,18 +44,17 @@ public class Main {
 
     private static void showOld(int age, Employer[] emplArray) {
         System.out.println();
-        for (int i = 0; i < emplArray.length; i++)
-            if (emplArray[i].getAge() > age) {
-                System.out.println("UID: " + emplArray[i].uid + " this is " + emplArray[i].fio + "\t Age: " + emplArray[i].getAge() + "\t Salary: " + emplArray[i].getSalary());
-            }
+        for (Employer employer : emplArray)
+            if (employer.getAge() > age)
+                employer.showInfo();
     }
 
     private static void increaseSalary(int age, int howMuch, Employer[] emplArray) {
         System.out.println();
-        for (int i = 0; i < emplArray.length; i++)
-            if (emplArray[i].getAge() > age) {
-                emplArray[i].setSalary(emplArray[i].getSalary() + howMuch);
-                System.out.println("UID: " + emplArray[i].uid + " this is " + emplArray[i].fio + "\t Age: " + emplArray[i].getAge() + "\t Salary: " + emplArray[i].getSalary());
+        for (Employer employer : emplArray)
+            if (employer.getAge() > age) {
+                employer.setSalary(employer.getSalary() + howMuch);
+                employer.showInfo();
             }
     }
     private static void averAge(Employer[] emplArray) {
