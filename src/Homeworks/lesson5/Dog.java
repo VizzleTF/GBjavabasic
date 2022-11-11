@@ -1,6 +1,7 @@
 package Homeworks.lesson5;
 
 public class Dog extends Animal{
+
     private int swim;
 
     Dog(String name) {
