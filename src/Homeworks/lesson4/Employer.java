@@ -2,7 +2,7 @@ package Homeworks.lesson4;
 
 public class Employer {
     final String fio;
-    int salary;
+    private int salary;
     final int yearOfBirth;
     final int uid;
     static int counter = 0;
@@ -26,6 +26,14 @@ public class Employer {
 
     int getAge() {
         return currentYear - this.yearOfBirth;
+    }
+
+    int getSalary() {
+        return this.salary;
+    }
+
+    void setSalary(int newSalary) {
+        this.salary = newSalary;
     }
 
 }

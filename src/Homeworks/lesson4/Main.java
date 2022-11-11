@@ -1,7 +1,7 @@
 package Homeworks.lesson4;
 
 public class Main {
-    static Employer[] emplArray = new Employer[5];
+
 
     public static void main(String[] args){
 
@@ -26,7 +26,7 @@ public class Main {
         fioArray[3] = "Mihailov Sergey Mihaylovich";
         fioArray[4] = "Alexeev Alexey Sergeevich";
 
-
+        Employer[] emplArray = new Employer[5];
         for (int i = 0; i < fioArray.length; i++) {
             emplArray[i] = new Employer(fioArray[i], salaryArray[i], ageArray[i]);
         }
@@ -38,15 +38,15 @@ public class Main {
 
         showOld(40, emplArray);
         increaseSalary(45, 5000, emplArray);
-        averAge();
-        averSalary();
+        averAge(emplArray);
+        averSalary(emplArray);
     }
 
     private static void showOld(int age, Employer[] emplArray) {
         System.out.println();
         for (int i = 0; i < emplArray.length; i++)
             if (emplArray[i].getAge() > age) {
-                System.out.println("UID: " + emplArray[i].uid + " this is " + emplArray[i].fio + "\t Age: " + emplArray[i].getAge() + "\t Salary: " + emplArray[i].salary);
+                System.out.println("UID: " + emplArray[i].uid + " this is " + emplArray[i].fio + "\t Age: " + emplArray[i].getAge() + "\t Salary: " + emplArray[i].getSalary());
             }
     }
 
@@ -54,11 +54,11 @@ public class Main {
         System.out.println();
         for (int i = 0; i < emplArray.length; i++)
             if (emplArray[i].getAge() > age) {
-                emplArray[i].salary += howMuch;
-                System.out.println("UID: " + emplArray[i].uid + " this is " + emplArray[i].fio + "\t Age: " + emplArray[i].getAge() + "\t Salary: " + emplArray[i].salary);
+                emplArray[i].setSalary(emplArray[i].getSalary() + howMuch);
+                System.out.println("UID: " + emplArray[i].uid + " this is " + emplArray[i].fio + "\t Age: " + emplArray[i].getAge() + "\t Salary: " + emplArray[i].getSalary());
             }
     }
-    private static void averAge() {
+    private static void averAge(Employer[] emplArray) {
         System.out.println();
         int aa = 0;
         for (int i = 0; i < emplArray.length; i++)
@@ -66,10 +66,10 @@ public class Main {
         System.out.println("Average age: " + aa / emplArray.length);
     }
 
-    private static void averSalary() {
+    private static void averSalary(Employer[] emplArray) {
         System.out.println();
         int aa = 0;
-        for (Employer employer : emplArray) aa += employer.salary;
+        for (Employer employer : emplArray) aa += employer.getSalary();
         System.out.println("Average salary: " + aa / emplArray.length);
     }
 }
