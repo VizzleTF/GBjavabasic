@@ -1,20 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9ede44f-fd9b-4a2b-b491-2d96b7fbe807" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeekBrains.iml" beforeDir="false" />
+    <list default="true" id="e9ede44f-fd9b-4a2b-b491-2d96b7fbe807" name="Changes" comment="little changes">
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/lesson6/files/1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/lesson6/files/2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/lesson6/files/3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/lesson6/files/4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/lesson6/hw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homeworks/lesson5/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homeworks/lesson5/Dog.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2HP1VrNYynS0nCeqtZuHAht6jZK" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -25,6 +42,31 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Homeworks/lesson6/files" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="hw" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homeworks.lesson6.hw" />
+      <module name="GeekBrains" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homeworks.lesson6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.hw" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -34,6 +76,28 @@
       <option name="presentableId" value="Default" />
       <updated>1668171935287</updated>
     </task>
+    <task id="LOCAL-00001" summary="test push">
+      <created>1668172019031</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668172019031</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test push">
+      <created>1668172065938</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668172065938</updated>
+    </task>
+    <task id="LOCAL-00003" summary="little changes">
+      <created>1668498052033</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668498052033</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -46,5 +110,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test push" />
+    <MESSAGE value="little changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="little changes" />
   </component>
 </project>

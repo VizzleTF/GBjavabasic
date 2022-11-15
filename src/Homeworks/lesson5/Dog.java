@@ -4,7 +4,7 @@ public class Dog extends Animal{
 
     private int swim;
 
-    Dog(String name) {rj
+    Dog(String name) {
         super(name, 500, 0.5f);
         this.swim = 10;
     }
