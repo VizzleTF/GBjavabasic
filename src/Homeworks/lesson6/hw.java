@@ -46,13 +46,40 @@ public class hw {
         return false;
     }
 
+    static boolean checkFileV2(String fis, String x){
+        try {
+            FileInputStream f = new FileInputStream(fis);
+            int a = 0;
+            int i = 0;
+            int count =0;
+            char[] c = x.toCharArray();
+            while (true) {
+                a = f.read();
+                if (a != -1) {
+                    if (a == c[i]) {
+                        count += 1;
+                        i++;
+                    } else {
+                        count = 0;
+                        i = 0;
+                    }
+                    if (count == c.length)
+                        return true;
+                }
+                else
+                    break;
+            }
+            } catch (Exception e) { e.printStackTrace(); }
+        return false;
+    }
+
     static boolean checkFiles(String fis, String x){
         File folder = new File(fis);
         File[] listOfFiles = folder.listFiles();
 
         for (File file : listOfFiles) {
             if (file.isFile()) {
-                if (checkFile(file.getAbsolutePath(), x))
+                if (checkFileV2(file.getAbsolutePath(), x))
                     return true;
             }
         }
@@ -84,8 +111,8 @@ public class hw {
 
             System.out.println();
 
-            if (checkFiles("/home/ivan/GeekBrains/src/Homeworks/lesson6/files", "THIS")) {
-                System.out.println("Your word is in files of folder");
+            if (checkFiles("/home/ivan/GeekBrains/src/Homeworks/lesson6/files", "THIS here")) {
+                System.out.println("Your text is in files of folder");
             } else {
                 System.out.println("No matches");
             }

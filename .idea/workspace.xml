@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9ede44f-fd9b-4a2b-b491-2d96b7fbe807" name="Changes" comment="little changes">
-      <change afterPath="$PROJECT_DIR$/src/Homeworks/lesson6/files/1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homeworks/lesson6/files/2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homeworks/lesson6/files/3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homeworks/lesson6/files/4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homeworks/lesson6/hw.java" afterDir="false" />
+    <list default="true" id="e9ede44f-fd9b-4a2b-b491-2d96b7fbe807" name="Changes" comment="add hw6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homeworks/lesson5/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homeworks/lesson5/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homeworks/lesson6/hw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homeworks/lesson6/hw.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668498052033</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add hw6">
+      <created>1668514820764</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668514820764</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,6 +116,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test push" />
     <MESSAGE value="little changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="little changes" />
+    <MESSAGE value="add hw6" />
+    <option name="LAST_COMMIT_MESSAGE" value="add hw6" />
   </component>
 </project>
