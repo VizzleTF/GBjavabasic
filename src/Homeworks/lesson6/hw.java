@@ -69,6 +69,7 @@ public class hw {
                 else
                     break;
             }
+            f.close();
             } catch (Exception e) { e.printStackTrace(); }
         return false;
     }

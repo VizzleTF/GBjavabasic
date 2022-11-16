@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9ede44f-fd9b-4a2b-b491-2d96b7fbe807" name="Changes" comment="add hw6">
+    <list default="true" id="e9ede44f-fd9b-4a2b-b491-2d96b7fbe807" name="Changes" comment="edit hw6 (checkFiles not only 1 word, parts of word, a bunch of words)">
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/lesson7/GameWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/lesson7/Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/lesson7/StartNewGameWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/lesson7/hw.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Homeworks/lesson6/hw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homeworks/lesson6/hw.java" afterDir="false" />
     </list>
@@ -42,7 +46,20 @@
       <recent name="$PROJECT_DIR$/src/Homeworks/lesson6/files" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Homeworks.lesson7.hw">
+    <configuration name="Homeworks.lesson7.hw" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homeworks.lesson7.hw" />
+      <module name="GeekBrains" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homeworks.lesson7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="hw" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Homeworks.lesson6.hw" />
       <module name="GeekBrains" />
@@ -58,6 +75,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Homeworks.lesson7.hw" />
         <item itemvalue="Application.hw" />
       </list>
     </recent_temporary>
@@ -99,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668514820764</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="edit hw6 (checkFiles not only 1 word, parts of word, a bunch of words)">
+      <created>1668518078848</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668518078848</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,6 +142,7 @@
     <MESSAGE value="test push" />
     <MESSAGE value="little changes" />
     <MESSAGE value="add hw6" />
-    <option name="LAST_COMMIT_MESSAGE" value="add hw6" />
+    <MESSAGE value="edit hw6 (checkFiles not only 1 word, parts of word, a bunch of words)" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit hw6 (checkFiles not only 1 word, parts of word, a bunch of words)" />
   </component>
 </project>
