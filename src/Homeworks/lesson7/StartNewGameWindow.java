@@ -17,7 +17,7 @@ class StartNewGameWindow extends JFrame {
     private JRadioButton jrbHumanVsAI = new JRadioButton("Human vs AI", true);
     private JRadioButton jrbHumanVsHuman = new JRadioButton("Human vs human");
     private ButtonGroup gameMode = new ButtonGroup();
-    private final String STR_WIN_LEN = "Winning lenght: ";
+    private final String STR_WIN_LEN = "Winning length: ";
     private final String STR_FIELD_SIZE = "Field size: ";
 
     private JSlider slFieldSize;
